@@ -1,5 +1,5 @@
 html,body {
-  background: url(maksym-kaharlytskyi-kDVaFjoQf4M-unsplash.jpg) no-repeat center center fixed;
+  background: url(/imgs/maksym-kaharlytskyi-kDVaFjoQf4M-unsplash.jpg) no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -103,7 +103,7 @@ nav li a:hover {
   border-radius: 11px ;
   text-align: center;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
   
