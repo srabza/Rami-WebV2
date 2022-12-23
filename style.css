@@ -14,6 +14,138 @@ html,body {
   padding-left: 6px;
   text-decoration:none;
   font-size: 2em;
+}html,body {
+  background: url(/imgs/maksym-kaharlytskyi-kDVaFjoQf4M-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.logo {
+  display:inline-block;
+  padding-top: 5px;
+  padding-left: 6px;
+  text-decoration:none;
+  font-size: 2em;
+  color: white;
+  text-shadow: black 2px 2px;
+}
+
+.container {
+  color: white;
+  font-weight: normal;
+}
+
+.mobile-menu-exit {
+  cursor: pointer;
+  /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
+  float: right;
+  margin: .2em;
+  
+}
+
+.mobile-menu {
+  cursor: pointer;
+  /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
+  float: right;
+  margin: .90em;
+  margin-top: 15px;
+  width: 28px;
+  border-style:none;
+  
+}
+
+nav a {
+  color: rgb(19, 230, 230);
+}
+
+nav a:visited {
+  color: rgb(19, 230, 230);
+}
+
+nav a:hover {
+
+  color: lightcyan;
+}
+
+nav a:active { 
+  color: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 ;
+  padding: 0;
+  color: red;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 40%;
+  right: 0;
+  top: 0;
+  background:#20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav li a {
+  text-decoration: none;
+  display:block;
+  padding: .5em;
+  text-align: left;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.intro {
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  color: #E3E9DD;
+  word-wrap: break-word;
+  border-width: 1px;
+  border-radius: 11px ;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  
+}
+
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: #5A68A7;}
+  from {color: #F5AA3A}
+  to {color:white;}
+}
+
+.rami-imge {
+  display: block;
+  max-width: 100%; height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  
 }
 
 .container {
