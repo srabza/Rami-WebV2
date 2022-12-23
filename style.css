@@ -112,7 +112,7 @@ nav li a:hover {
 @keyframes example {
   from {background-color: black;}
   to {background-color: #5A68A7;}
-  from {color: #F5AA3A}
+  from {color: grey;}
   to {color:white;}
 }
 
