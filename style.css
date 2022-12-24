@@ -99,6 +99,8 @@ nav li a:hover {
   font-size: 1.75em;
   color: #E3E9DD;
   word-wrap: break-word;
+  border-width: 1px;
+  border-radius: 11px ;
   text-align: center;
   animation-name: example;
   animation-duration: 4s;
@@ -108,8 +110,6 @@ nav li a:hover {
 }
 
 @keyframes example {
-  from {background-color: #3c4775;}
-  to {background-color: #6e7bb6;}
   from {color: white;}
   to {color:black;}
 }
