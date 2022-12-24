@@ -99,8 +99,6 @@ nav li a:hover {
   font-size: 1.75em;
   color: #E3E9DD;
   word-wrap: break-word;
-  border-width: 1px;
-  border-radius: 11px ;
   text-align: center;
   animation-name: example;
   animation-duration: 4s;
