@@ -3,8 +3,7 @@ html,body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  font-family: 'Cairo', sans-serif; ;
+  -o-background-size: cover; 
 }
 
 
@@ -13,14 +12,28 @@ html,body {
   padding-top: 5px;
   padding-left: 6px;
   text-decoration:none;
-  font-size: 2em;
+  font-size: 2.3em;
   color: white;
   text-shadow: black 2px 2px;
 }
 
+.intro {
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  letter-spacing: 0.5px ;
+  word-spacing: 0px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  font-family: 'Cairo', sans-serif;
+  
+}
+
 .container {
-  color: white;
-  font-weight: normal;
+  color:white;
 }
 
 .mobile-menu-exit {
@@ -39,6 +52,7 @@ html,body {
   margin-top: 15px;
   width: 28px;
   border-style:none;
+  position:fixed;
   
 }
 
@@ -93,25 +107,9 @@ nav li a:hover {
   font-weight: bold;
 }
 
-.intro {
-  margin-top: 1em;
-  text-transform: uppercase;
-  font-size: 1.75em;
-  color: #E3E9DD;
-  word-wrap: break-word;
-  border-width: 1px;
-  border-radius: 11px ;
-  text-align: center;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  
-}
-
 @keyframes example {
   from {color: white;}
-  to {color:#142b57;}
+  to {color: #e7a923;}
 }
 
 .rami-imge {
@@ -120,7 +118,6 @@ nav li a:hover {
   margin-left: auto;
   margin-right: auto;
 
-  
 }
 
 @media only screen and (min-width: 768px) {
