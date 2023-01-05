@@ -10,18 +10,30 @@ html,body {
 
 .logo {
   display:inline-block;
-  padding-top: 5px;
-  padding-left: 6px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
   text-decoration:none;
-  font-size: 2.3em;
+  font-size: 34px;
   color: white;
   text-shadow: black 2px 2px;
+  font-family: 'Kurale', serif;
+
+}
+
+
+
+.compet-listimg {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 
 .intro {
-  margin-top: 1em;
+  margin-top: .5em;
   text-transform: uppercase;
-  font-size: 1.75em;
+  font-size: 1.8em;
   letter-spacing: 0em ;
   word-spacing: 0em;
   text-align: center;
@@ -46,16 +58,14 @@ html,body {
 }
 
 .mobile-menu {
+ 
   cursor: pointer;
   /*float bte5od el soora w bt7ata left right up down hasab lcontainer taba3ak wen w kif*/
   float: right;
   margin: 0em;
-  margin-top: 6px;
-  margin-left: 5px;
-  width: 37px;
-  border-style:none;
- 
-  
+  margin-top: 7px;
+  margin-right: 5px;
+  width: 37px; 
 }
 
 nav a {
@@ -126,5 +136,18 @@ nav li a:hover {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
+
+  .compet-listimg {
+    width: 50%;
+    height: 100%;
+    display: block;
+  }
   
+  .logo {
+    display: flex;
+    font-size: 80px;
+    align-content: center;
+    justify-content: center;
+  }
+
 }
